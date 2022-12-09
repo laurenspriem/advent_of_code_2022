@@ -1,7 +1,7 @@
 # load data
-with open("Day 8 - Treetop Tree House/input_sample.txt") as f:
+with open("Day 8 - Treetop Tree House/input_sample.txt", encoding="utf-8") as f:
     challenge_input_sample = f.read()
-with open("Day 8 - Treetop Tree House/input.txt") as f:
+with open("Day 8 - Treetop Tree House/input.txt", encoding="utf-8") as f:
     challenge_input = f.read()
 
 import numpy as np

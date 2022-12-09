@@ -1,7 +1,7 @@
 # load data
-with open("Day 7 - No Space Left On Device/input_sample.txt") as f:
+with open("Day 7 - No Space Left On Device/input_sample.txt", encoding="utf-8") as f:
     challenge_input_sample = f.read()
-with open("Day 7 - No Space Left On Device/input.txt") as f:
+with open("Day 7 - No Space Left On Device/input.txt", encoding="utf-8") as f:
     challenge_input = f.read()
 
 
@@ -32,7 +32,7 @@ def part1(challenge_input):
 
     return sum([size for size in list(directories.values()) if size <=100000])
 
-# print(part1(challenge_input))
+print(part1(challenge_input))
 
 def part2(challenge_input):
     total_space  = 70000000

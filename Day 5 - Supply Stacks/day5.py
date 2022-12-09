@@ -1,7 +1,7 @@
 # load data
-with open("Day 5 - Supply Stacks/input_sample.txt") as f:
+with open("Day 5 - Supply Stacks/input_sample.txt", encoding="utf-8") as f:
     challenge_input_sample = f.read().split("\n\n")
-with open("Day 5 - Supply Stacks/input.txt") as f:
+with open("Day 5 - Supply Stacks/input.txt", encoding="utf-8") as f:
     challenge_input = f.read().split("\n\n")
 
 import re # re.findall
