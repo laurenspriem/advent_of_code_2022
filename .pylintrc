@@ -8,4 +8,4 @@
 # multiple time (only on the command line, not in the configuration file where
 # it should appear only once).
 #disable=
-disable = W0123
+disable = W0123 # gives warning for using eval()
