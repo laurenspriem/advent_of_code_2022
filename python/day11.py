@@ -1,7 +1,7 @@
 # load data
-with open("Day 11 - Monkey in the Middle/input_sample.txt", encoding="utf-8") as f:
+with open("../input/day11_input_sample.txt", encoding="utf-8") as f:
     challenge_input_sample = f.read()
-with open("Day 11 - Monkey in the Middle/input.txt", encoding="utf-8") as f:
+with open("../input/day11_input.txt", encoding="utf-8") as f:
     challenge_input = f.read()
 
 import re
@@ -52,7 +52,6 @@ def part2(challenge_input_variable, number_of_rounds=10000):
     monkeys = [monkey_dict(info) for info in challenge_input_variable.split("\n\n")]
     common_multiple = lcm(*(monkey["divisor"] for monkey in monkeys))
     active = [0] * len(monkeys)
-    print(common_multiple)
     for dummy_round_nr in range(number_of_rounds):
         for idx, monkey in enumerate(monkeys):
             for _ in range(len(monkey["items"])):

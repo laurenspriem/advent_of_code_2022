@@ -1,7 +1,7 @@
 # load data
-with open("Day 12 - Hill Climbing Algorithm/input_sample.txt", encoding="utf-8") as f:
+with open("../input/day12_input_sample.txt", encoding="utf-8") as f:
     challenge_input_sample = f.read()
-with open("Day 12 - Hill Climbing Algorithm/input.txt", encoding="utf-8") as f:
+with open("../input/day12_input.txt", encoding="utf-8") as f:
     challenge_input = f.read()
 
 from heapq import heapify, heappop

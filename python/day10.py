@@ -1,7 +1,7 @@
 # load data
-with open("Day 10 - Cathode-Ray Tube/input_sample.txt", encoding="utf-8") as f:
+with open("../input/day10_input_sample.txt", encoding="utf-8") as f:
     challenge_input_sample = f.read()
-with open("Day 10 - Cathode-Ray Tube/input.txt", encoding="utf-8") as f:
+with open("../input/day10_input.txt", encoding="utf-8") as f:
     challenge_input = f.read()
 
 
