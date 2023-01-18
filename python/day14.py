@@ -50,7 +50,7 @@ def part1(challenge_input):
     return points
 
 
-print(f"Par1: {part1(challenge_input)}")
+print(f"Part1: {part1(challenge_input)}")
 
 
 def part2(challenge_input):
